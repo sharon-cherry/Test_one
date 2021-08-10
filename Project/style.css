@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #d9c68e;
+}
+.cancel{
+    margin-top: 5px;
+    margin-left: 120px;
+    color: #565e64;
+    opacity: 0.6;
+}
+.img-avatar{
+    width:90px;
+    border-radius: 90%;
+    border: 3px solid white;
+    margin-top: 100px;
+}
+.card{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+}
+.card-user{
+    width: 100%;
+    background-color: #343140;
+    background-size: cover;
+}
+.user-comment{
+    width: 100%;
+    background-color: white;
+}
+.user-header{
+    font-family: Poppins;
+    font-size: 1rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bolder;
+}
+.header-content{
+    font-family: Poppins;
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.header-content:after{
+    content: "";
+    display: block;
+    height: 6px;
+    width: 2em;
+    background: #bb2d3b;
+    margin: 0.5em auto;
+    border-radius: 10px;
+}
+.first{
+    color: white;
+    font-weight: lighter;
+}
+.second{
+    color: white;
+    font-weight: bolder;
+}
+.para-start{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    border-top: #565e64;
+    box-shadow: #5c636a;
+    margin-top: 40px;
+    width: 100%;
+}
+p{
+    margin-top: 19px;
+    font-size: 14px;
+    font-family: Dosis;
+    text-align: left;
+}
+.date{
+    text-transform: capitalize;
+    color: #5c636a;
+    opacity: 0.6;
+}
+.time{
+    font-weight: bolder;
+}
+.dots{
+    margin-left: 170px;
+}
+.heart{
+    margin-left: 10px;
+    color: #f5484e;
+}
+@media(min-width: 600px){
+    .card{
+        flex-direction: row;
+        padding: 0;
+        text-align: left;
+        box-shadow: #1b1c1d;
+        width: 90%;
+    }
+    p{
+        margin-top: 19px;
+        font-size: 11px;
+        font-family: Dosis;
+        letter-spacing: 0.7px;
+    }
+    .cancel{
+        margin-top: 5px;
+        margin-left: 130px;
+        color: #565e64;
+        opacity: 0.6;
+    }
+    .img-avatar{
+        border-radius: 90%;
+        border: 3px;
+        margin-top: 90px;
+        margin-left: 40px;
+        box-shadow: #2c3034;
+        width: 50px;
+    }
+    .card-user{
+        width: 100%;
+        background-color: #383442;
+    }
+    .user-comment{
+        text-align: left;
+        margin-left: 2em;
+        background-color: white;
+        width: 100%;
+    }
+    .header-content:after{
+        margin-left: 5px;
+        width: 2em;
+        background: #e24d5b;
+        height: 2px;
+    }
+    .header-content{
+        margin-left: 30px;
+        font-size: larger;
+    }
+    .user-header{
+        margin-left: 30px;
+        margin-top: 40px;
+        font-size: larger;
+    }
+    .para-start{
+        font-weight: bolder;
+        color: black;
+        font-size: 20px;
+    }
+    .user-name{
+        text-align: right;
+        margin-bottom: -70px;
+    }
+    .image-container{
+        display: flex;
+        margin-top: 120px;
+        align-items: center;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+    .first{
+     color: white;
+        font-weight: lighter;
+        margin-bottom: -50px;
+        margin-left: 5px;
+    }
+    .second{
+        color: #f9fffb;
+        font-weight: bolder;
+        margin-bottom: -50px;
+        margin-left: 5px;
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        border-top: #565e64;
+        box-shadow: #5c636a;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .date{
+        text-transform: capitalize;
+        color: #5c636a;
+        opacity: 0.6;
+    }
+    .time{
+        font-weight: bolder;
+    }
+    .dots{
+        margin-left: 90px;
+    }
+    .heart{
+     margin-left: 10px;
+        color: #f5484e;
+    }
+}
